@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
         <section className='item_section mt-4 container'>
-          <h2 className='px-4' style={{fontWeight:400}}> Restaurants in Mumbai open Now</h2>
+          <h2 className='px-4' style={{fontWeight:400}}>My Restaurants in Mumbai open Now</h2>
           <div className='row mt-2 d-flex justify-content-around align-items-center'> 
             {
               cartData.map((element,index)=>{
